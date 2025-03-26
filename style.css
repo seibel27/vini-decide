@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 400px;
+  margin: auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+h1 {
+  color: #2c3e50;
+}
+
+.bilu-img {
+  width: 100%;
+  max-width: 250px;
+  margin: 15px 0;
+  border-radius: 10px;
+}
+
+.frase {
+  font-style: italic;
+  font-size: 15px;
+  margin: 5px auto 15px auto;
+  max-width: 320px;
+  color: #555;
+}
+
+input {
+  display: block;
+  width: 90%;
+  margin: 10px auto;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #00c3ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #00a2d1;
+}
+
+#resultado {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 20px;
+}
